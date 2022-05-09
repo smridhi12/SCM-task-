@@ -1,0 +1,30 @@
+body{
+    background-image: url("mooninfobg4.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.p{
+    font-size: 10px;
+    color: white;
+    text-align: left;
+    font: inherit;
+}
+
+
+#s15{
+     height:none; 
+    width: 895px;
+    font-size: 23px;
+    color:white;
+
+}
+
+/* .width{
+    width:1000px;
+} */
+/* @media only screen and (min-width: 400px) {
+    .p{font-size: 11px}
+ }  */

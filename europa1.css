@@ -1,0 +1,17 @@
+img{
+    position: absolute;
+    left: 61px;
+    /* bottom: -39px; */
+    width: 85%;
+    margin-top: 317px;
+}
+
+body{
+    background-color: black;
+    font-size: 23px;
+}
+p{top:0px;
+position: relative;
+color: white;
+text-align: left;
+font-size: 23px;}

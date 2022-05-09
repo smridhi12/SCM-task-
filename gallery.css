@@ -1,0 +1,37 @@
+
+body{
+    padding:10px;
+    }
+    .wrapper{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap:1px;
+    }
+    .box{
+    padding:1px;
+    }
+    body{
+    font-family:serif;
+    background-color:#cecece;
+    
+    }
+    h1{
+    text-align:center;
+    color:black;
+    margin:40px 0 35px;
+    }
+    /* .gallery{
+    margin:10px 50px;
+    }--> */
+    .wrapper img{
+    width:370px;
+    height:242px;
+    padding:3px;
+    filter:grayscale(100%);
+    transition:1s;
+    border-radius:5%;
+    }
+    .wrapper img:hover{
+    filter:grayscale(0);
+    transform:scale(1.1);
+    }

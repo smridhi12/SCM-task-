@@ -1,0 +1,182 @@
+body  
+{ 
+   background-color: black; 
+    background-image: url("bgimg.gif");   
+   /* background-image: url("new.jpg"); */
+   background-repeat: no-repeat; 
+     background-size: cover; 
+    margin:0;
+    padding:0;
+   list-style:none;
+   text-decoration:none;
+}
+
+.bgImgPg2{
+      background-image: url("black2.jpg");  
+      background-color: black;
+     background-repeat: no-repeat; 
+     background-size: cover; 
+}
+ul{
+  padding-inline-start: 13px;
+}
+nav
+{
+    position:fixed;
+    top:0;
+    right:0;
+    width: 100%;
+    background: black;
+}
+nav ul
+{
+   float:left;
+   margin-right:20px; 
+}
+nav ul li
+{
+   display:inline-block;
+   line-height:10px;
+   margin:0 20px;
+}
+nav ul li a
+{
+   position:relative;
+   color:white;
+   font-size:15PX;
+   padding:10px 0;
+   text-transform:uppercase;
+}
+nav ul li a:before
+{
+   position:absolute;
+   content:'';
+   left:0;
+   height:3px;
+   width:100%;
+   background:white;
+   transform:scaleX(0);
+   transform-origin:right;
+   transition:transform.4s linear;
+}
+   nav ul li a:hover:before
+{
+   transform:scaleX(1);
+   transform-origin:left;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    text-align: center;
+    padding: 20px;
+   background-color: black ;
+    color: white;
+    width: 100%;
+    height: 10px;
+   
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    top: 50%;
+  }
+  .center1{
+        width: 45%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+.bgvideo {
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+ 
+  }
+
+  .content1 {
+    position: fixed;
+    text-align: left;
+    color: hsl(0deg 21% 93%);
+    width: 100%;
+    padding: 10px;
+    font-size:75px;
+    top: 200px;
+  }
+
+  .content2{
+    position:fixed;
+    color: hsl(0deg 21% 93%);
+    
+    padding: 10px;
+    font-size:45px;
+    top: 500px;
+   
+  }
+
+  .btn {
+   position:fixed;
+   border: none;
+   background-color: transparent;
+   line-height: 40px;
+   transition: all 0.5s;
+   padding: 10px 20px;
+   font-size: 35px;
+   text-align: center;
+   cursor: pointer;
+   top: 550px;
+   right: 10px;
+    /* transition: width 2s, height 4s;  */
+   
+}
+.btn span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+ }
+
+ .btn span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ .btn:hover span {
+   padding-right: 25px;
+ }
+ 
+ .btn:hover span:after {
+   opacity: 1;
+   right: 0;
+  
+ }
+
+.btn a{color:hsl(0deg 21% 93%) ;}   
+
+#audiob{
+    width: 55px;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 12px;
+    font-size: 14px;
+    
+    color:white;
+    cursor: pointer;
+    position:relative;
+    top: 72px;
+    background: inherit;
+    
+ }        
+ 
+ #audiob:active{font-size: 23px;}

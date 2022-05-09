@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+    <link rel="icon" type="image/x-icon" href="favicon2.png">
+
+</head>
+
+<body>
+
+    <form action="paymentsuccess.html" autocomplete="off" method="">
+        <div class="wrap">
+              <p  style="font-size: 27px; text-align:center; color:white;background-color: black; margin-top: 7px; border-radius: 5px;"> <b> PAYMENT FORM </b></p>
+            <h5> PERSONAL DETAILS </h5>
+            <hr><BR>
+
+            <div class="input-box">
+                <label for="name">Name</label>
+                &emsp;&emsp;&emsp;&ensp;
+                <input type="text" placeholder="First name" required id="name">
+                &emsp;&emsp;
+
+
+
+
+                <input type="text" placeholder="Last name" required id="name">
+
+
+            </div><br>
+
+
+
+            <div class="input-box">
+                <label for="email">Email ID</label>
+                &emsp;&emsp;
+                <input type="email" placeholder="Email" required id="email">
+
+            </div><br>
+
+
+
+            <div class="input-box">
+                <label for="dob">Date of birth</label>&ensp;
+                <input type="date" required id="dob">
+
+            </div> <br>
+
+
+            <div class="input-box">
+                <label for="destination">Destination</label>&emsp;&emsp;&ensp;
+                <input type="radio" name="destination" required id="gender">Moon
+                <input type="radio" name="destination" required id="gender">Mars
+                <input type="radio" name="destination" required id="gender">Europa
+            </div>
+
+
+
+            <div class="input-box">
+                <h5>PAYMENT DETAILS</h5>
+                <hr>
+                <p>Accepted Cards</p>
+                <img src="visa.png" alt="visa img">
+                <img src="Mastercard.jpg" alt="mastercard img">
+                <img src="upi.jpg" alt="upi img">
+            </div><br>
+
+
+
+            <div class="input-box">
+                <label for="cardnumb">Card number</label>&emsp;&emsp;&emsp;&ensp;
+                <input type="text" placeholder="###-###-###" required id="cardnumb">
+            </div><br>
+
+            <div class="input-box">
+                <label for="cardname"> Card Holder name </label>&emsp;
+                <input type="text" placeholder="Enter name on card" required id="cardname">
+            </div><br>
+
+            <div class="input-box">
+                <label for="expiry">Expiry</label>&emsp;
+                <input type="text" placeholder="MM/YY" required id="expiry">
+
+                &emsp;<label for="cvv">CVV</label>&ensp;
+                <input type="password" required id="cvv" maxlength="3" placeholder="Last three digits on the card back">
+            </div><br>
+
+
+            <input type="submit" value="Confirm payment">
+
+
+            <!-- js
+            <script type="text/javascript">
+                function showMessage() {
+                    alert("Data saved.");
+                } -->
+          
+
+
+
+
+
+        </div>
+</body>
+
+</html>

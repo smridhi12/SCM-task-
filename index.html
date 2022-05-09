@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/1a9c654779.js" crossorigin="anonymous"></script>
+    <!-- library to use icons  -->
+    <link rel="stylesheet" href="styles.css">
+    <title> Space Up</title>
+    <link rel="icon" type="image/x-icon" href="favicon2.png">
+</head>
+<body>
+    
+     <section>
+     <!-- <video autoplay loop muted class="bgvideo">
+         <source src="Bg.mp4" type="video/mp4">
+     </video> -->
+
+     <div class="content1">
+        <b>Come on a journey</b><br>
+       
+        <b>you've never imagined</b>
+    </div>
+    </section>
+
+
+    <header>
+        <nav>
+                <ul>
+                       
+                        <li><a href="index.html">HOME </a></li>  
+                        <li><a href="destinations.html" target="hostingFrame">DESTINATIONS</a></li> 
+                        <li><a href="eligibility.html">PAYMENT AND ELIGIBILITY</a></li>         
+                        <li><a href="mailto:spaceup@gmail.com" target="_blank" >MAIL</a></li> 
+                        <li><a href="gallery.html"> GALLERY </a></li>
+                        <li><a href="aboutUsTest.html" target="_blank" >ABOUT US</a></li> 
+                        <li><a href="signup.html" target="_blank" >LOG IN</a></li> 
+                        <li style="color:white; padding-left: 450px; font-size:28px; font-family: 'Roboto Mono', monospace;
+                        "><b>SPACE UP</b></li>  
+                    
+                </ul>
+            </nav>
+    </header>
+    
+     <div class="content2">
+           Somewhere, something incredible <br>
+           is waiting to be known
+        
+    </div>
+    
+
+    <button class="btn destination"><a href="destinations.html"><span>PICK YOUR DESTINATION</span></a></button>
+
+
+  
+    <button id="audiob"><i class="fas fa-volume-up"></i></button>
+    <div>
+        <audio id="mybg">
+            <source src="audio.mp4" type="audio/mp4">
+        </audio>
+    </div>
+    <script>
+        var mybg=document.getElementById("mybg");
+        var icon=document.getElementById("audiob")
+        audiob.onclick = function(){
+            if(mybg.paused){mybg.play();}
+            else{mybg.pause();}
+        }
+           
+    </script>
+
+    <footer>
+        <span>Copyright © 2022</span> &ensp;
+      </footer>
+
+
+    </body>
+
+</html>

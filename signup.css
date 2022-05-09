@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:5% auto;
+	background:rgba(2, 0, 12, 0.699);
+	padding:10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.button-box
+{
+	width:230px;
+    height:40px;
+	margin:25px auto;
+	position:relative;
+	text-align: center;
+	border-radius: 100px;
+	font-family: 'Roboto Mono', monospace;
+}
+.toggle-btn
+{
+	padding:3px 15px;
+	cursor:pointer;
+	background-color:transparent;
+	border:0;
+    color:white;
+	font-size: 18px;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 128px;
+	height: 100%;
+	background: rgba(0, 0, 8, 0.726);
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 117px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+    
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid rgb(250, 245, 245);
+	outline:none;
+	background: transparent;
+    font-family: 'Roboto';
+}
+.submit-btn
+{
+	width: 85%;
+    height: 40px;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: rgb(41 41 43 / 79%);
+    color:white;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	font-size: 15px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:rgb(252, 250, 250);
+	font: size 20px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:whitesmoke;
+	
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:whitesmoke;
+	
+}
+::placeholder{
+    color:rgba(255, 255, 255, 0.911);
+	font-size: 18px;
+}

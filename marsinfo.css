@@ -1,0 +1,19 @@
+body{
+background-color: black;
+background-image:url("marsbga.png");
+background-repeat:no-repeat;
+background-size:cover;
+height:100%;
+}
+.p{
+font-size:10px;
+color:white;
+text-align:left;
+font:inherit;
+}
+#s15{
+height:none;
+width:895px;
+font-size:23px;
+color:white;
+}

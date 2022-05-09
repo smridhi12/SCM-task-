@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Login Form </title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpeg">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            LOGIN
+        </div>
+        <form action="index.html" method="post">
+            <div class="field">
+                <input type="text" required>
+                <label>Email Address</label>
+            </div>
+            <div class="field">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="content">
+                <div class="checkbox">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <div class="pass-link">
+                    <a href="#" onclick="emailPrompt()">Forgot password?</a>
+                </div>
+            </div>
+            <div class="field">
+
+                <input type="submit" value="Login" onclick="showMessage()">
+
+        </form>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("You have been logged in.");
+        }
+        function emailPrompt(){
+            prompt("Please enter the email you used to register to Space Up.")
+            alert("A mail with a recovery link to your password has been sent!")
+        }
+    </script>
+
+</body>
+
+</html>

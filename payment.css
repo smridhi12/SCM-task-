@@ -1,0 +1,77 @@
+.heading{  text-align: center;
+           
+    background-color:black;
+    color: white;
+   border-radius: 6px;
+    height: 50px;
+  padding: 7px 6px;}
+
+
+img{width: 100px;
+height: 60px;
+display: inline-flex;}    
+
+.input-box{font-weight: 550;
+font-size: 19px;}
+
+input[type="submit"]{
+width: 183px;
+margin: 15px 0;
+height: 38px;
+background-color:black;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+color: white;
+text-align: center;
+
+}
+input[type="submit"]:hover{
+cursor: pointer;
+background-color: rgb(46, 46, 41);
+
+}
+input[type="text"]{
+height:24px;
+width: 158px;
+
+font: 16px;
+}
+input[type="email"]{height:24px;
+  width: 158px;}
+
+
+input[type="date"]{height:26px;
+  width: 166px;}
+
+input[type="password"]{height: 30px; width: 166px;font: 16px;}
+
+input[type="radio"]{height: 15px; font: 16px;}
+
+
+h5
+{text-align: center;
+font-size: 25px;
+margin-top: 15px;
+ margin-bottom: auto;}
+
+body{background-image: url(temppy.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.wrap{background: #d1cdcd;
+border-radius: 7px;
+box-shadow: 0px 15px 20px rgb(0 0 0 / 10%);
+position: absolute;
+width: 507px;
+height: 706px;
+padding: 7px 14px;
+top: 20px;
+left: 517px;
+opacity: 0.7;
+
+
+}
+/* #d1cdcd; */

@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background:url(black2.jpg);
+    
+
+}
+body{
+    color:white;
+    letter-spacing: 1px;
+    
+}
+.container{
+    
+    width:70%;
+    margin:5% 20% ;
+    display: flex;
+    align-items: center;
+    
+}
+.left{
+    width:50%;
+    height: 297px;
+   
+    align-items: center;
+    background:url(aboutUsTest2.jpeg) no-repeat center/ cover;
+    border-radius: 8px;
+}
+.right{
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 320px;
+    background-color:rgba(1, 1, 19, 0.767) ;
+    color: white;
+    margin-left: -10%;
+    border-radius: 8px;
+    letter-spacing: 3px;
+
+
+}
+.crew {
+    margin-left: 50px;
+    width:90%;
+    display: flex;
+
+}
+.a{
+    
+    width:50%;
+    height:250px;
+    background:rgba(15, 15, 15, 0.74);
+    border-radius: 10px;
+    
+    
+    
+}
+.b{
+    padding: 3% auto;
+    width:50%;
+    height:250px;
+    background:rgba(15, 15, 15, 0.74);;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.c{
+    padding: 3% auto;
+    width:50%;
+    height:250px;
+    background:rgba(15, 15, 15, 0.74);;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.crew2{
+    margin-left:-10%;
+    margin-top: 2%;
+    width:90%;
+    display: flex;
+}
+.d{
+    margin-left: 30%;
+    width:50%;
+    height:250px;
+    background:rgba(15, 15, 15, 0.74);
+    border-radius: 10px;
+    
+    
+    
+}
+.e{
+    padding: 3% auto;
+    width:50%;
+    height:250px;
+    background:rgba(15, 15, 15, 0.74);;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.button{
+    width: 70px;
+    height:30px;
+    color:white;
+    background: rgb(8, 8, 32);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.wrapper{
+    border-top: 2px white;
+    width: 500 px;
+    height:50px
+    border-bottom:2px  white;
+    border-left: 0;
+    border-right: 0;
+}
